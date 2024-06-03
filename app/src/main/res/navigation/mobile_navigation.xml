@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--suppress NavigationFile -->
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.project2.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_game"
+        android:name="com.example.project2.ui.dashboard.GameFragment"
+        android:label="Choose Prompt"
+        tools:layout="@layout/fragment_game" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_chooseLLMWrapped"
+        android:name="com.example.project2.ui.home.ChooseLLMWrapped"
+        android:label="Choose Prompt"
+        tools:layout="@layout/fragment_choose_llm_wrapped" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_recommendedArtists"
+        android:name="com.example.project2.ui.home.RecommendedArtists"
+        android:label="Recommended Artists"
+        tools:layout="@layout/fragment_recommended_artists_wrapped" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_past_wraps"
+        android:name="com.example.project2.ui.home.PastWrapFragment"
+        android:label="Past Wraps"
+        tools:layout="@layout/fragment_past_wraps" />
+    <fragment
+        android:id="@+id/navigation_display_past_wrap"
+        android:name="com.example.project2.ui.home.DisplayPastWrapFragment"
+        android:label="View Past Wrap"
+        tools:layout="@layout/fragment_display_past_wrap" />
+
+    <fragment
+        android:id="@+id/navigation_wrapped_intro"
+        android:name="com.example.project2.ui.home.WrappedFragment"
+        android:label="Wrapped"
+        tools:layout="@layout/fragment_wrapped_intro" >
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_wrapped_artists"
+        android:name="com.example.project2.ui.home.ArtistFragment"
+        android:label="Top Artists"
+        tools:layout="@layout/fragment_artist">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_wrapped_songs"
+        android:name="com.example.project2.ui.home.SongsFragment"
+        android:label="Top Songs"
+        tools:layout="@layout/fragment_songs">
+    </fragment>
+
+
+    <fragment
+        android:id="@+id/navigation_wrapped_genres"
+        android:name="com.example.project2.ui.home.GenresFragment"
+        android:label="Top Genres"
+        tools:layout="@layout/fragment_genres">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_wrapped_summary"
+        android:name="com.example.project2.ui.home.SummaryFragment"
+        android:label="Summary"
+        tools:layout="@layout/fragment_summary">
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_songreleasedate"
+        android:name="com.example.project2.ui.dashboard.SongReleaseDateFragment"
+        android:label="Song Release Date Game"
+        tools:layout="@layout/fragment_song_release_date" >
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_popularitygame"
+        android:name="com.example.project2.ui.dashboard.PopularityGameFragment"
+        android:label="Popularity Game"
+        tools:layout="@layout/fragment_popularitygame" >
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_llmresponse"
+        android:name="com.example.project2.ui.dashboard.LLMResponseFragment"
+        android:label="Response"
+        tools:layout="@layout/fragment_llmresponse">
+        <argument
+            android:name="prompt"
+            app:argType="string"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_loading"
+        android:name="com.example.project2.ui.dashboard.LoadingFragment"
+        android:label="Loading"
+        tools:layout="@layout/fragment_loading" >
+        <argument
+            android:name="prompt"
+            app:argType="string"/>
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.example.project2.ui.profile.ProfileFragment"
+        android:label="@string/title_profile"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

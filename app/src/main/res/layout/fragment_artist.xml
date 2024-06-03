@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".ui.home.ArtistFragment"
+    android:layout_marginTop="0dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="@drawable/tri_color_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="700dp"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:gravity="center_horizontal|center_vertical">
+
+                <TextView
+                    android:layout_width="373dp"
+                    android:layout_height="58dp"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/gugi"
+                    android:paddingTop="10dp"
+                    android:text="Your Top Artists"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="35dp"
+                    android:textStyle="bold"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/gugi"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="1."
+                    android:textColor="@color/white"
+                    android:textSize="45dp"></TextView>
+
+                <ImageView
+                    android:id="@+id/numberOneImage"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"></ImageView>
+
+                <TextView
+                    android:id="@+id/numberOneName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/roboto_mono"
+                    android:padding="20dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20dp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/gugi"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="2."
+                    android:textColor="@color/white"
+                    android:textSize="45dp"></TextView>
+
+                <ImageView
+                    android:id="@+id/numberTwoImage"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"></ImageView>
+
+                <TextView
+                    android:id="@+id/numberTwoName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/roboto_mono"
+                    android:padding="20dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/gugi"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="3."
+                    android:textColor="@color/white"
+                    android:textSize="45dp"></TextView>
+
+                <ImageView
+                    android:id="@+id/numberThreeImage"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"></ImageView>
+
+                <TextView
+                    android:id="@+id/numberThreeName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/roboto_mono"
+                    android:padding="20dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/gugi"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="4."
+                    android:textColor="@color/white"
+                    android:textSize="45dp"></TextView>
+
+                <ImageView
+                    android:id="@+id/numberFourImage"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"></ImageView>
+
+                <TextView
+                    android:id="@+id/numberFourName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/roboto_mono"
+                    android:padding="20dp"
+
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/gugi"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="5."
+                    android:textColor="@color/white"
+                    android:textSize="45dp"></TextView>
+
+                <ImageView
+                    android:id="@+id/numberFiveImage"
+                    android:layout_width="108dp"
+                    android:layout_height="match_parent"></ImageView>
+
+                <TextView
+                    android:id="@+id/numberFiveName"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/roboto_mono"
+                    android:padding="20dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="20dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/backToWrappedIntroButton"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="35dp"
+                    android:background="@drawable/wrapped_button"
+                    android:text="Back"
+                    android:textColor="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/songsButton"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="70dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="Next"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+</LinearLayout>

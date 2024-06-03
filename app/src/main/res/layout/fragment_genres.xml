@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_marginTop="0dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context=".ui.home.GenresFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="0dp"
+        android:background="@drawable/tri_color_background">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:gravity="center_horizontal|center_vertical">
+
+                <TextView
+                    android:layout_width="307dp"
+                    android:layout_height="59dp"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/gugi"
+                    android:paddingTop="10dp"
+                    android:text="Your Top Genres"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="35dp"
+                    android:textStyle="bold">
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/gugi"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="1."
+                    android:textColor="@color/white"
+                    android:textSize="45dp"></TextView>
+
+                <TextView
+                    android:id="@+id/genre1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/roboto_mono"
+                    android:paddingTop="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="40dp"></TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/gugi"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="2."
+                    android:textColor="@color/white"
+                    android:textSize="45dp"></TextView>
+
+                <TextView
+                    android:id="@+id/genre2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/roboto_mono"
+                    android:paddingTop="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="40dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/gugi"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="3."
+                    android:textColor="@color/white"
+                    android:textSize="45dp"></TextView>
+
+                <TextView
+                    android:id="@+id/genre3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/roboto_mono"
+                    android:paddingTop="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="40dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/gugi"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="4."
+                    android:textColor="@color/white"
+                    android:textSize="45dp"></TextView>
+
+                <TextView
+                    android:id="@+id/genre4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/roboto_mono"
+                    android:paddingTop="10dp"
+                    android:textAlignment="center"
+
+                    android:textColor="@color/white"
+                    android:textSize="40dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="95dp"
+                android:layout_marginBottom="15dp">
+
+                <TextView
+                    android:layout_width="75dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/gugi"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="20dp"
+                    android:paddingTop="10dp"
+                    android:text="5."
+                    android:textColor="@color/white"
+                    android:textSize="45dp"></TextView>
+
+                <TextView
+                    android:id="@+id/genre5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/color_pane"
+                    android:fontFamily="@font/roboto_mono"
+                    android:paddingTop="10dp"
+                    android:textAlignment="center"
+                    android:textColor="@color/white"
+                    android:textSize="40dp">
+
+                </TextView>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/backToSongsButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="70dp"
+                    android:layout_marginRight="35dp"
+                    android:background="@drawable/wrapped_button"
+                    android:text="Back"
+                    android:textColor="@color/white" />
+
+                <androidx.appcompat.widget.AppCompatButton
+                    android:id="@+id/recommendedArtistsButton"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="35dp"
+                    android:layout_marginRight="70dp"
+                    android:background="@drawable/rounded_button"
+                    android:text="Next"
+                    android:textColor="@color/white" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</LinearLayout>
